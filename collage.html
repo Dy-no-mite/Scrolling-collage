@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scrolling collage</title>
+    <style>
+
+
+
+    .square {
+  height: 500px;
+  width: 500px;
+  background-color: #555;
+  position: sticky;
+  padding: 40px;
+  top: 0px;
+  left: 50px;
+}
+
+    body{
+   width: 90%
+   max-width: 900px;
+   margin: 2em auto;
+     font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+
+
+    }
+
+
+    }
+
+   .container {
+     display: grid;
+
+     display: grid;
+      position: fixed;
+       grid-template-columns: 2fr 1fr 1fr;
+       gap: 100px;
+     grid-auto-rows:100px;
+     column-gap: 80px;
+     row-gap: 80px;
+     grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: 200px;
+     gap: 100px;
+
+   }
+   p:nth-of-type(1) {
+     position: absolute;
+     background: lime;
+     top: 0px;
+     right: 30px;
+     z-index: 1;
+   }
+
+   .container > div{
+   border-radius: 5px;
+   padding: 10px;
+   background-color: indigo;
+   border: 9px solid orange;
+   }
+
+
+   </style>
+   </head>
+
+
+   <body>
+
+
+
+
+<div class="square"></div>
+
+
+     <div class="container">
+   <div>one</div>
+   <div>two</div>
+   <div>three</div>
+   <div>four</div>
+   <div>five</div>
+   <div>six</div>
+   <div>seven</div>
+   <div>eight</div>
+   <div>nine</div>
+   <div>ten</div>
+   <div>eleven</div>
+   <div>twelve</div>
+   <div>thirteen</div>
+   <div>fourteen</div>
+
+
+   </div>
